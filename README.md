@@ -2,6 +2,8 @@
 Test
 
 #BD
+
+```sql
 CREATE TABLE users (
     user_id SERIAL PRIMARY KEY,
     username VARCHAR(10) UNIQUE NOT NULL,
@@ -38,3 +40,4 @@ CREATE TABLE labels (
         (1018, 'Этикетка 18', '2024-03-18', 'image18.png'),
         (1019, 'Этикетка 19', '2024-03-19', 'image19.png'),
         (1020, 'Этикетка 20', '2024-03-20', 'image20.png');
+```
